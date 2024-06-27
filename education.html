@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mila's E-Resume</title>
+    <style>
+         body { 
+           font-family: Verdana, Geneva, Tahoma, sans-serif;
+           padding: 0;
+           margin-right: 1%;
+           margin-left: 1%;
+           margin-top: 1%;
+        }
+
+        .header {
+           font-family: 'Courier New', Courier, monospace;
+           background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(IMAGES/background.jpg);
+           padding: 20px;
+           text-align:center;
+           color: white;
+           
+        }
+        
+        footer { 
+            background: #dad3c3; 
+            padding:10px; 
+            text-align: center; 
+            font-size: medium;
+              
+        }
+
+        .navigation { 
+            background: #6F8D81; 
+            padding: 8px;
+    
+         }
+
+        .navigation a { 
+            font-family:'Courier New', Courier, monospace ;
+            color: rgb(255, 255, 255); 
+            margin: 15px; 
+            font-size: larger;
+        }
+
+        .content { 
+            background: #d1f3c7;
+            text-align: left; 
+            padding: 50px;
+            color: rgb(37, 30, 30);
+        }
+
+        section {
+            display: -webkit-flex;
+            display: flex;
+            text-align: justify;
+        }
+
+        ul {
+            list-style-type: none;
+        }
+
+        ul li {
+            display: inline-block;
+        }
+
+        ul li a{
+            text-decoration: none;
+            color: #d1f3c7;
+            padding:13px;
+            border: 1px solid transparent;
+            transition: 0.5s ease;
+        }
+
+        ul li a:hover{
+            background-color: #2F584D;
+            color:white;
+        }
+
+        ul li.active a {
+            background-color: #2F584D;
+            color: white;
+        }
+
+        .logo img {
+            float: left;
+            width: 90px;
+            height: auto;
+        }
+
+    </style>
+</head>
+<body> 
+
+    <div class="header">
+        
+        <div class="logo"> <img src="IMAGES/logo.png" alt="logo"></div>
+        <h1 style="font-size: 500%; color:white;"> Hazmila E-Resume
+        </h1>
+      
+
+    </div>
+
+
+    <div class="navigation">
+        <ul>
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="aboutme.html">AboutMe</a></li>
+            <li><a href="experience.html">Experience</a></li>
+            <li><a href="education.html">Education</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+
+
+    <div class="content">
+        <h1 style="font-size: 300%; color: rgb(26, 65, 29);text-align: left;"><p>&#8765; EDUCATION &#8765;</p></h1>
+
+        <hr>
+
+        <section>
+
+        <p><a href="IMAGES/SPM.png"><img src="IMAGES/SPM.png" alt="SPM" width= "98%" height= "90%"></a>
+        </p>
+
+        <br>
+
+        <pre style="font-size: 150%; font-family: 'Courier New', Courier, monospace;">
+
+            
+        <b>EDUCATION:</b>  MALAYSIAN CERTIFICATE OF EDUCATION (SPM)
+
+        <b>SCHOOL   :</b>  Sekolah Menengah Kebangsaan Kinabutan II,
+                    Tawau,Sabah
+
+        <b>RESULTS  :</b>  6-A 1Bt 1Ct
+        </pre>
+        </section>
+
+        <hr>
+
+        <section>
+
+        <p><a href="IMAGES/STPM.png"><img src="IMAGES/STPM.png" alt="STPM" width="87%" height="90%">
+        </a></p>
+           
+        <br>
+    
+        <pre style="font-family: 'Courier New', Courier, monospace; text-align: left; font-size: 140%;">
+        
+        <br>
+        
+        <b>EDUCATION:</b> MALAYSIAN HIGHER SCHOOL CERTIFICATE (STPM)
+
+        <b>SCHOOL   :</b> Sekolah Menengah Kebangsaan Kinabutan,
+                       Tawau,Sabah
+
+        <b>CGPA     :</b> 3.09
+        </pre>
+        </section>
+
+        <hr>
+
+        <section>
+
+        <p><a href="IMAGES/uitm.png"><img src="IMAGES/uitm.png" alt="uitm 1" width="89%" height="90%">
+        </a></p>
+
+        <br>
+        
+        <pre style="font-family: 'Courier New', Courier, monospace; text-align: left; font-size: 150%;">
+            
+        <br>
+            
+        <b>EDUCATION:</b> BACHELOR OF INFORMATION SCIENCE (HONS.)
+                   LIBRARY MANAGEMENT
+    
+        <b>SCHOOL   :</b> Universiti Teknologi Mara,
+                   Puncak Perdana Campus
+    
+        </pre>
+        </section>
+      
+    </div>
+    
+
+    <footer>
+        <p>&copy; 2024 NurHazmila Binti Idris. All rights reserved</p>
+        <p>Unauthorized use is prohibited</p>
+    
+    </footer>
+
+</body>
+</html>
